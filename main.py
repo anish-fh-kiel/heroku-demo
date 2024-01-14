@@ -1,8 +1,8 @@
 import time, os
-from dotenv import load_env
+from dotenv import load_dotenv
 import logging
 
-load_env()
+load_dotenv()
 url = os.getenv('url')
 api_key = os.getenv('api_key')
 counter = 0
