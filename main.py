@@ -9,6 +9,6 @@ counter = 0
 while counter<=5:
 	print("I am working!")
 	print(url)
-	loggig.info(f"api-key = {api_key}")
+	logging.info(f"api-key = {api_key}")
 	
 	time.sleep(3)
